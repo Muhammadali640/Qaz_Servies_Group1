@@ -1,0 +1,82 @@
+.contact2 .registr {
+  width: 50%;
+  height: 60vh;
+  border: 1px solid rgb(239, 239, 239);
+  border-radius: 15px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.contact2 .registr .registr_left {
+  width: 50%;
+  height: 100%;
+}
+.contact2 .registr .registr_left input {
+  padding: 8px 75px;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 10px;
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgb(236, 236, 236);
+  border-radius: 5px;
+}
+.contact2 .registr .registr_left .p1 {
+  position: absolute;
+  top: 35px;
+  padding-left: 15px;
+  color: #828282;
+}
+.contact2 .registr .registr_left .p2 {
+  position: absolute;
+  top: 18vh;
+  padding-left: 15px;
+  color: #828282;
+}
+.contact2 .registr .registr_left .p3 {
+  position: absolute;
+  padding-left: 15px;
+  top: 31vh;
+  color: #828282;
+}
+.contact2 .registr .registr_left .p4 {
+  width: 45%;
+  height: 8vh;
+  position: absolute;
+  padding-left: 15px;
+  font-size: 13px;
+  top: 44vh;
+  color: #828282;
+}
+.contact2 .registr .registr_left button {
+  padding: 12px 25px;
+  background-color: blue;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.contact2 .registr .registr_left button:hover {
+  background-color: red;
+  color: rgb(255, 255, 255);
+}
+.contact2 .registr .registr_right {
+  position: relative;
+}
+.contact2 .registr .registr_right textarea {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(246, 246, 247);
+}
+.contact2 .registr .registr_right .p5 {
+  padding-top: 37px;
+  color: #828282;
+}
+.contact2 h2 {
+  padding-left: 26%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

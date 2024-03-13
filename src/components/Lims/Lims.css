@@ -1,0 +1,923 @@
+.lims {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.lims .main2 {
+  width: 1519.5px;
+  height: 530px;
+  background-image: url(../../../public/images/diagnostika.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: cover;
+  color: white;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.lims .main2 .main-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.lims .main2 .main-text .text_top {
+  width: 285px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.lims .main2 .main-text .text_top h1 {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.lims .main2 .main-text .text_top p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.lims .main2 .main-text .text_bot {
+  width: 1220px;
+  height: 150px;
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+}
+
+.lims .main2 .main-text .text_bot h4 {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.lims .main2 .main-text .text_bot .text-bot2 {
+  display: flex;
+  gap: 70px;
+}
+
+.lims .main2 .main-text .text_bot .text-bot2 .seyf-text {
+  width: 48%;
+  display: flex;
+}
+
+.lims .main2 .main-text .text_bot .text-bot2 .seyf-text img {
+  width: 60px;
+  height: 60px;
+  /* border: 2px solid purple; */
+  margin-right: 50px;
+}
+
+.lims .main2 .main-text .text_bot .text-bot2 .seyf-text p {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.lims .main2 .vector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: -20%;
+  z-index: 5;
+}
+
+.lims .main2 .vector img {
+  width: 25px;
+}
+
+/* Lims - Text  */
+
+.lims .lims-text {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 200px 120px 100px;
+}
+
+.lims .lims-text .lims_top {
+  display: flex;
+  align-items: center;
+}
+
+.lims .lims-text .lims_top h2 {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #787878;
+  margin: 0 100px 50px 0;
+  /* border: 2px solid red; */
+}
+
+.lims .lims-text .lims_top img {
+  width: 31px;
+  height: 56px;
+  margin-bottom: 50px;
+}
+
+.lims .lims-text .lims_bot {
+  display: flex;
+  gap: 130px;
+}
+
+.lims .lims-text .lims_bot p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+
+.lims .diagnostika {
+  width: 1420px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 120px;
+}
+
+.lims .diagnostika .diag_text {
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 2px solid blue; */
+}
+
+.lims .diagnostika .diag_text h2 {
+  width: 415px;
+  height: 175px;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #787878;
+  /* border: 2px solid purple; */
+  margin-right: 30px;
+}
+
+.lims .diagnostika .diag_img {
+  width: 65%;
+  height: 100%;
+}
+
+.lims .diagnostika .diag_img img {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid black; */
+}
+
+.lims .diagnostika2 {
+  width: 1420px;
+  margin: 120px auto !important;
+  display: flex;
+  position: relative;
+  /* border: 2px solid red; */
+  padding: 160px 0 200px 0;
+}
+
+.lims .diagnostika2 button {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  border: none;
+  cursor: pointer;
+  background-color: #274597;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.lims .diagnostika2 button:hover {
+  background-color: red;
+}
+
+.lims .diagnostika2 .diag_text2 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid blue; */
+}
+
+.lims .diagnostika2 .diag_text2 h2 {
+  width: 415px;
+  height: 175px;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #787878;
+  /* border: 2px solid purple; */
+  margin-right: 170px;
+}
+
+.lims .diagnostika2 .diag_text2 a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: -50px 420px 0 0;
+  color: #828282;
+  border-bottom: 1px solid #828282;
+}
+
+.lims .diagnostika2 .diag_img2 {
+  width: 65%;
+  height: 100%;
+}
+
+.lims .diagnostika2 .diag_img2 img {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid black; */
+}
+
+/* Media */
+
+@media screen and (min-width: 400px) and (max-width: 769px) {
+  .lims {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .lims .main2 {
+    width: 100%;
+    height: 530px;
+    background-image: url(../../../public/images/diagnostika.png);
+    background-size: 100% 100%;
+    /* border: 2px solid red; */
+  }
+
+  .lims .main2 .main-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .lims .main2 .main-text .text_top {
+    width: 285px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  .lims .main2 .main-text .text_top h1 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .lims .main2 .main-text .text_bot {
+    width: 1220px;
+    height: 150px;
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .lims .main2 .main-text .text_bot h4 {
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .lims .main2 .main-text .text_bot .text-bot2 .seyf-text {
+    width: 48%;
+    display: flex;
+  }
+
+  .lims .main2 .main-text .text_bot .text-bot2 .seyf-text img {
+    width: 60px;
+    height: 60px;
+    /* border: 2px solid purple; */
+    margin-right: 50px;
+  }
+
+  .lims .main2 .main-text .text_bot .text-bot2 .seyf-text p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  /* Lims - Text  */
+
+  .lims .lims-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 100px 80px 10px 40px;
+  }
+
+  .lims .lims-text .lims_top {
+    display: flex;
+    align-items: center;
+  }
+
+  .lims .lims-text .lims_top h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 50px 50px 0;
+    /* border: 2px solid red; */
+  }
+
+  .lims .lims-text .lims_top img {
+    width: 21px;
+  }
+
+  .lims .lims-text .lims_bot {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: -2000px;
+  }
+
+  .lims .lims-text .lims_bot p {
+    /* width: 34%; */
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+  }
+
+  .lims .diagnostika {
+    width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+  }
+
+  .lims .diagnostika .diag_text {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+    /* border: 2px solid blue; */
+  }
+
+  .lims .diagnostika .diag_text h2 {
+    font-size: 31px;
+    font-weight: 800;
+    line-height: 50px;
+  }
+
+  .lims .diagnostika .diag_img {
+    width: 60%;
+    height: 100%;
+  }
+
+  .lims .diagnostika .diag_img img {
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid black; */
+  }
+
+  .lims .diagnostika2 {
+    width: 1420px;
+    margin: 120px auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    /* border: 2px solid red; */
+    padding: 160px 0 200px 0;
+  }
+
+  .lims .diagnostika2 button {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+  }
+
+  .lims .diagnostika2 .diag_text2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+  }
+
+  .lims .diagnostika2 .diag_text2 h2 {
+    width: 415px;
+    height: 175px;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+    /* border: 2px solid purple; */
+    margin-right: 170px;
+  }
+
+  .lims .diagnostika2 .diag_text2 a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: -50px 420px 0 0;
+    color: #828282;
+    border-bottom: 1px solid #828282;
+  }
+
+  .lims .diagnostika2 .diag_img2 {
+    width: 60%;
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  .lims .diagnostika2 .diag_img2 img {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+
+
+@media screen and (min-width: 770px) and (max-width: 965px) {
+  .lims {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .lims .main2 {
+    width: 100%;
+    height: 530px;
+    background-image: url(../../../public/images/diagnostika.png);
+    background-size: 100% 100%;
+    /* border: 2px solid red; */
+  }
+
+  .lims .main2 .main-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .lims .main2 .main-text .text_top {
+    width: 285px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  .lims .main2 .main-text .text_top h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .lims .main2 .main-text .text_bot {
+    width: 1220px;
+    height: 150px;
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column !important;
+  }
+
+  .lims .main2 .main-text .text_bot h4 {
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .lims .main2 .main-text .text_bot .text-bot2 .seyf-text {
+    width: 48%;
+    display: flex;
+  }
+
+  .lims .main2 .main-text .text_bot .text-bot2 .seyf-text img {
+    width: 60px;
+    height: 60px;
+    /* border: 2px solid purple; */
+    margin-right: 50px;
+  }
+
+  .lims .main2 .main-text .text_bot .text-bot2 .seyf-text p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  /* Lims - Text  */
+
+  .lims .lims-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 100px 80px 10px 40px;
+  }
+
+  .lims .lims-text .lims_top {
+    display: flex;
+    align-items: center;
+  }
+
+  .lims .lims-text .lims_top h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 50px 50px 0;
+    /* border: 2px solid red; */
+  }
+
+  .lims .lims-text .lims_top img {
+    width: 21px;
+  }
+
+  .lims .lims-text .lims_bot {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: -100px;
+  }
+
+  .lims .lims-text .lims_bot p {
+    /* width: 34%; */
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+  }
+
+  .lims .diagnostika {
+    width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+  }
+
+  .lims .diagnostika .diag_text {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+    /* border: 2px solid blue; */
+  }
+
+  .lims .diagnostika .diag_text h2 {
+    font-size: 31px;
+    font-weight: 800;
+    line-height: 50px;
+  }
+
+  .lims .diagnostika .diag_img {
+    width: 60%;
+    height: 100%;
+  }
+
+  .lims .diagnostika .diag_img img {
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid black; */
+  }
+
+  .lims .diagnostika2 {
+    width: 1420px;
+    margin: 120px auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    /* border: 2px solid red; */
+    padding: 160px 0 200px 0;
+  }
+
+  .lims .diagnostika2 button {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+  }
+
+  .lims .diagnostika2 .diag_text2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+  }
+
+  .lims .diagnostika2 .diag_text2 h2 {
+    width: 415px;
+    height: 175px;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+    /* border: 2px solid purple; */
+    margin-right: 170px;
+  }
+
+  .lims .diagnostika2 .diag_text2 a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: -50px 420px 0 0;
+    color: #828282;
+    border-bottom: 1px solid #828282;
+  }
+
+  .lims .diagnostika2 .diag_img2 {
+    width: 60%;
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  .lims .diagnostika2 .diag_img2 img {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+
+
+@media screen and (min-width: 966px) and (max-width: 1300px) {
+  .lims {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .lims .main2 {
+    width: 100%;
+    height: 530px;
+    background-image: url(../../../public/images/diagnostika.png);
+    background-size: 100% 100%;
+    /* border: 2px solid red; */
+  }
+
+  .lims .main2 .main-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .lims .main2 .main-text .text_top {
+    width: 285px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  .lims .main2 .main-text .text_top h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .lims .main2 .main-text .text_bot {
+    width: 1220px;
+    height: 150px;
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column !important;
+  }
+
+  .lims .main2 .main-text .text_bot h4 {
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .lims .main2 .main-text .text_bot .text-bot2 .seyf-text {
+    width: 48%;
+    display: flex;
+  }
+
+  .lims .main2 .main-text .text_bot .text-bot2 .seyf-text img {
+    width: 60px;
+    height: 60px;
+    /* border: 2px solid purple; */
+    margin-right: 50px;
+  }
+
+  .lims .main2 .main-text .text_bot .text-bot2 .seyf-text p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  /* Lims - Text  */
+
+  .lims .lims-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 100px 80px 10px 40px;
+  }
+
+  .lims .lims-text .lims_top {
+    display: flex;
+    align-items: center;
+  }
+
+  .lims .lims-text .lims_top h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 50px 50px 0;
+    /* border: 2px solid red; */
+  }
+
+  .lims .lims-text .lims_top img {
+    width: 21px;
+  }
+
+  .lims .lims-text .lims_bot {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: -100px;
+  }
+
+  .lims .lims-text .lims_bot p {
+    /* width: 34%; */
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+  }
+
+  .lims .diagnostika {
+    width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+  }
+
+  .lims .diagnostika .diag_text {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+    /* border: 2px solid blue; */
+  }
+
+  .lims .diagnostika .diag_text h2 {
+    font-size: 31px;
+    font-weight: 800;
+    line-height: 50px;
+  }
+
+  .lims .diagnostika .diag_img {
+    width: 60%;
+    height: 100%;
+  }
+
+  .lims .diagnostika .diag_img img {
+    width: 80%;
+    height: 100%;
+    /* border: 2px solid black; */
+  }
+
+  .lims .diagnostika2 {
+    width: 1420px;
+    margin: 120px auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    /* border: 2px solid red; */
+    padding: 160px 0 200px 0;
+  }
+
+  .lims .diagnostika2 button {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+  }
+
+  .lims .diagnostika2 .diag_text2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+  }
+
+  .lims .diagnostika2 .diag_text2 h2 {
+    width: 415px;
+    height: 175px;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+    /* border: 2px solid purple; */
+    margin-right: 170px;
+  }
+
+  .lims .diagnostika2 .diag_text2 a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: -50px 420px 0 0;
+    color: #828282;
+    border-bottom: 1px solid #828282;
+  }
+
+  .lims .diagnostika2 .diag_img2 {
+    width: 65%;
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  .lims .diagnostika2 .diag_img2 img {
+    width: 100%;
+    height: 100%;
+  }
+}

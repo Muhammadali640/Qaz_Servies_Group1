@@ -1,0 +1,271 @@
+.obraduvenie {
+  width: 100%;
+  height: 160vh;
+  margin-bottom: 100px;
+}
+
+.obraduvenie .obraduvanie_top {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+
+.obraduvenie .obraduvanie_top .top_img {
+  width: 50%;
+  height: 100%;
+  background-image: url(../../../public/images/obraduvanie_top_left.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.obraduvenie .obraduvanie_top .top_img h1 {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin: 55px 0 0 180px;
+}
+
+.obraduvenie .obraduvanie_top .top_img h6 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin: 0 0 0 180px;
+}
+
+.obraduvenie .obraduvanie_top .top_img img {
+  width: 510px;
+  height: 400px;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+.obraduvenie .obraduvanie_top .top_text {
+  padding: 70px 0 75px 33px;
+}
+
+.obraduvenie .obraduvanie_top .top_text h3 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 65px;
+}
+
+.obraduvenie .obraduvanie_top .top_text ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.obraduvenie .obraduvanie_top .top_text ul li a {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+
+.obraduvenie .obraduvanie_top .top_text ul li a:hover {
+  color: blue;
+}
+
+.obraduvenie .obraduvanie_bot {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+
+.obraduvenie .obraduvanie_bot .bot_img {
+  width: 50%;
+  height: 100%;
+  background-image: url(../../../public/images/obraduvanie_bot.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+.obraduvenie .obraduvanie_bot .bot_text {
+  padding: 35px 0 35px 30px;
+}
+
+.obraduvenie .obraduvanie_bot .bot_text h3 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.obraduvenie .obraduvanie_bot .bot_text img {
+  width: 650px;
+  height: 450px;
+}
+
+/* Media */
+
+@media screen and (min-width: 400px) and (max-width: 769px) {
+  .obraduvenie {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150vh;
+  }
+
+  .obraduvenie .obraduvanie_top {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 90vh;
+  }
+
+  .obraduvenie .obraduvanie_top .top_img {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../public/images/obraduvanie_top_left.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .obraduvenie .obraduvanie_top .top_img h1 {
+    font-size: 25px;
+    margin: 44px 0 0 80px;
+  }
+
+  .obraduvenie .obraduvanie_top .top_img h6 {
+    font-size: 16px;
+    margin: 0 0 0 80px;
+  }
+
+  .obraduvenie .obraduvanie_top .top_img img {
+    width: 410px;
+    height: 380px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+  }
+
+  .obraduvenie .obraduvanie_bot {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .obraduvenie .obraduvanie_bot .bot_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .obraduvenie .obraduvanie_bot .bot_text {
+    padding: 35px 0 35px 30px;
+  }
+
+  .obraduvenie .obraduvanie_bot .bot_text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  .obraduvenie .obraduvanie_bot .bot_text img {
+    width: 100%;
+    height: 450px;
+  }
+}
+
+
+
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+  .obraduvenie {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150vh;
+  }
+
+  .obraduvenie .obraduvanie_top {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 90vh;
+  }
+
+  .obraduvenie .obraduvanie_top .top_img {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../public/images/obraduvanie_top_left.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .obraduvenie .obraduvanie_top .top_img h1 {
+    font-size: 25px;
+    margin: 44px 0 0 80px;
+  }
+
+  .obraduvenie .obraduvanie_top .top_img h6 {
+    font-size: 16px;
+    margin: 0 0 0 80px;
+  }
+
+  .obraduvenie .obraduvanie_top .top_img img {
+    width: 410px;
+    height: 380px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+  }
+
+  .obraduvenie .obraduvanie_bot {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .obraduvenie .obraduvanie_bot .bot_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .obraduvenie .obraduvanie_bot .bot_text {
+    padding: 35px 0 35px 30px;
+  }
+
+  .obraduvenie .obraduvanie_bot .bot_text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  .obraduvenie .obraduvanie_bot .bot_text img {
+    width: 100%;
+    height: 450px;
+  }
+}

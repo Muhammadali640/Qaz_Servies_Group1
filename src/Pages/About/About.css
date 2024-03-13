@@ -1,0 +1,262 @@
+.banner {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  /* border: 2px solid red;  */
+}
+
+.banner .slider {
+  width: 1137px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* border: 2px solid red; */
+}
+
+/* .banner .slider .faSolid:first-child {
+  position: absolute;
+  left: 16%;
+  font-size: 40px;
+  color: #828282;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+.banner .slider .faSolid:nth-child(2) {
+  position: absolute;
+  right: 16%;
+  font-size: 40px;
+  color: #828282;
+  cursor: pointer;
+  cursor: pointer;
+} */
+
+.banner .slider .slideer {
+  width: 65%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid blue; */
+}
+
+.banner .slider .slideer img {
+  width: 100%;
+  height: 100%;
+  transition: all .3s linear;
+}
+
+.banner .banner_text {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 180px;
+  /* border: 2px solid blue; */
+}
+
+.banner .banner_text .text-top {
+  display: flex;
+  /* border: 2px solid red; */
+  margin-bottom: 120px;
+}
+
+.banner .banner_text .text-top .banner-left {
+  width: 50%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.banner .banner_text .text-top .banner-left h1 {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #787878;
+  margin-right: 90px;
+}
+
+.banner .banner_text .text-top .banner-left img {
+  width: 31px;
+  height: 40px;
+}
+
+.banner .banner_text .text-top .banner-right {
+  width: 50%;
+  height: 320px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.banner .banner_text .text-top .banner-right p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+
+.banner .banner_text .text-top .banner-right .right-bot {
+  display: flex;
+  gap: 50px;
+}
+
+.banner .banner_text .text-top .banner-right .right-bot .key h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  margin-top: 5px;
+}
+
+.banner .banner_text .text-top .banner-right .right-bot .ten h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  margin-top: 5px;
+}
+
+.banner .banner_text .text-bot {
+  display: flex;
+  /* border: 2px solid blue; */
+}
+
+.banner .banner_text .text-bot .link-text {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 2px sol id red; */
+}
+
+.banner .banner_text .text-bot .link-text .link2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner .banner_text .text-bot .link-text .link2 h1 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  margin-bottom: 5px;
+}
+
+.banner .banner_text .text-bot .link-text .link2 a {
+  width: 165px;
+  height: 24px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  border-bottom: 1px solid #828282;
+}
+
+.banner .banner_text .text-bot .link-text .link2 a:hover {
+  color: #274597;
+  border-bottom: 1px solid #274597;
+}
+
+.banner .banner_text .text-bot .link-tv {
+  width: 50%;
+  border-color: #274597;
+}
+
+.banner .banner_text .text-bot .link-tv img {
+  width: 100%;
+  height: auto;
+}
+
+.banner .banner_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.banner .banner_logo button {
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  margin: 100px 0;
+  background-color: #274597;
+}
+
+.banner .banner_logo button:hover {
+  background-color:red;
+}
+
+.banner .banner_logo .qazservice {
+  width: 80%;
+  height: 185px;
+  position: absolute;
+  top: -5%;
+}
+
+.banner .banner_logo .dom {
+  width: 100%;
+  height: 647px;
+  /* border: 2px solid red; */
+  z-index: 5;
+}
+
+.banner .banner_location {
+  width: 1141px;
+  height: 90px;
+  position: absolute;
+  bottom: 33%;
+  right: 14%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid purple; */
+}
+
+.banner .banner_location .location {
+  display: flex;
+  /* border: 2px solid; */
+}
+
+.banner .banner_location .location .location_icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner .banner_location .location .location_text {
+  height: 50px;
+  border-left: 1px solid #828282;
+  transform: translate(-6px, 16px);
+}
+
+.banner .banner_location .location .location_text p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  margin-left: 15px;
+}

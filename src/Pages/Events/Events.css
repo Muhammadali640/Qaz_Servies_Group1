@@ -1,0 +1,133 @@
+.events {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px 100px 100px;
+}
+
+.events h1 {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  margin-bottom: 50px;
+}
+
+.events .events_banner {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.events .events_banner .events_box {
+  display: flex;
+}
+
+.events .events_banner .events_box:hover {
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.events .events_banner .events_box img {
+  width: 30%;
+  height: 320px;
+  border-radius: 5px;
+}
+
+.events .events_banner .events_box .events_text {
+  padding: 74px 0 74px 130px;
+}
+
+.events .events_banner .events_box .events_text h2 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.events .events_banner .events_box .events_text p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  margin: 20px 0;
+}
+
+.events .events_banner .events_box .events_text hr {
+  width: 330px;
+  height: 2px;
+}
+
+/* Boxes */
+
+.events .events_banner .events_boxes {
+  display: flex;
+}
+
+.events .events_banner .events_boxes:hover {
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.events .events_banner .events_boxes img {
+  width: 30%;
+  height: 320px;
+  border-radius: 5px;
+}
+
+.events .events_banner .events_boxes .events_text2 {
+  padding: 74px 130px 74px 0;
+}
+
+.events .events_banner .events_boxes .events_text2 h2 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.events .events_banner .events_boxes .events_text2 p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  margin: 20px 0;
+}
+
+.events .events_banner .events_box .events_text2 hr {
+  width: 330px;
+  height: 2px;
+}
+
+.events .more {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+.events .more a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  margin-bottom: 15px;
+}
+
+.events .more img {
+    width: 25px;
+    height: 66px;
+}

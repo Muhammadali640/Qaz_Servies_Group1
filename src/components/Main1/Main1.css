@@ -1,0 +1,511 @@
+.container .main1 {
+  width: 100%;
+  height: 538px;
+  margin-top: -50px;
+  display: flex;
+  overflow-y: hidden;
+  /* border: 2px solid purple; */
+  background-image: url("../../../public/images/main-top1.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.container .main1 .left-box {
+  width: 35%;
+  height: 100%;
+  /* border: 2px solid red; */
+  background-image: url("../../../public/images/main-top2.svg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 100%;
+}
+
+.container .main1 .right-box {
+  width: 65%;
+  height: 100%;
+  /* border: 2px solid white; */
+  z-index: 10;
+}
+
+.container .main1 .right-box .right-btn {
+  width: 13%;
+  /* margin-top: 100px; */
+  position: absolute;
+  bottom: 30%;
+  left: 40%;
+  /* border: 2px solid white; */
+}
+
+.container .main1 .right-box .right-btn p {
+  width: 151px;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.container .main1 .right-box .right-btn button {
+  font-size: 13px;
+  /* font-weight: 600; */
+  line-height: 23px;
+  padding: 6px 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 60px 0 0 49px;
+  border-radius: 10px;
+  border: none;
+}
+
+.container .main1 .right-box .right-btn button:hover {
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: black;
+}
+
+.container .main1 .right-box .right-text {
+  width: 480px;
+  height: auto;
+  position: absolute;
+  left: 65%;
+  bottom: 35%;
+  /* border: 2px solid red; */
+}
+
+.container .main1 .right-box .right-text .spen {
+  width: 60px;
+  height: 10px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.container .main1 .right-box .right-text .spen span {
+  width: 10px;
+  height: 100%;
+  border-color: white !important;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.container .main1 .right-box .right-text .spen span:nth-child(2) {
+  background-color: white;
+}
+
+.container .main1 .right-box .right-text .indicator {
+  display: flex;
+  align-items: center;
+}
+
+.container .main1 .right-box .right-text .indicator p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-right: 15px;
+}
+
+.container .main1 .right-box .right-text h1 {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin: 10px 0;
+}
+
+.container .main1 .right-box .right-text p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+
+
+/* Media */
+
+
+
+@media screen and (max-width: 768px) {
+  .container .main1 {
+    width: 100%;
+    height: 538px;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    /* border: 2px solid purple; */
+    background-image: url("../../../public/images/main-top1.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .container .main1 .left-box {
+    width: 35%;
+    height: 100%;
+    /* border: 2px solid red; */
+    background-image: url("../../../public/images/main-top2.svg");
+    background-repeat: no-repeat;
+    display: none;
+    object-fit: cover;
+    background-size: 100%;
+  }
+
+  .container .main1 .right-box {
+    width: 65%;
+    height: 100%;
+    /* border: 2px solid white; */
+    z-index: 10;
+  }
+
+  .container .main1 .right-box .right-btn {
+    width: 13%;
+    /* margin-top: 100px; */
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+    /* border: 2px solid white; */
+  }
+
+  .container .main1 .right-box .right-btn p {
+    width: 151px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+
+  .container .main1 .right-box .right-btn button {
+    width: 130px;
+    font-size: 10px;
+    /* font-weight: 600; */
+    line-height: 23px;
+    padding: 6px 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 60px 0 0 49px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .container .main1 .right-box .right-text {
+    width: 480px;
+    height: auto;
+    display: none;
+    position: absolute;
+    left: 25%;
+    bottom: 35%;
+    /* border: 2px solid red; */
+  }
+
+  .container .main1 .right-box .right-text .spen {
+    width: 60px;
+    height: 10px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  .container .main1 .right-box .right-text .spen span {
+    width: 10px;
+    height: 100%;
+    border-color: white !important;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  .container .main1 .right-box .right-text .spen span:nth-child(2) {
+    background-color: white;
+  }
+
+  .container .main1 .right-box .right-text .indicator {
+    display: flex;
+    align-items: center;
+  }
+
+  .container .main1 .right-box .right-text .indicator p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-right: 15px;
+  }
+
+  .container .main1 .right-box .right-text h1 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin: 10px 0;
+  }
+
+  .container .main1 .right-box .right-text p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .container .main1 {
+    width: 100%;
+    height: 538px;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    /* border: 2px solid purple; */
+    background-image: url("../../../public/images/main-top1.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .container .main1 .left-box {
+    width: 35%;
+    height: 100%;
+    /* border: 2px solid red; */
+    background-image: url("../../../public/images/main-top2.svg");
+    background-repeat: no-repeat;
+    display: none;
+    object-fit: cover;
+    background-size: 100%;
+  }
+
+  .container .main1 .right-box {
+    width: 65%;
+    height: 100%;
+    /* border: 2px solid white; */
+    z-index: 10;
+  }
+
+  .container .main1 .right-box .right-btn {
+    width: 13%;
+    /* margin-top: 100px; */
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+    /* border: 2px solid white; */
+  }
+
+  .container .main1 .right-box .right-btn p {
+    width: 151px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+
+  .container .main1 .right-box .right-btn button {
+    width: 130px;
+    font-size: 10px;
+    /* font-weight: 600; */
+    line-height: 23px;
+    padding: 6px 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 60px 0 0 49px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .container .main1 .right-box .right-text {
+    width: 480px;
+    height: auto;
+    display: none;
+    position: absolute;
+    left: 25%;
+    bottom: 35%;
+    /* border: 2px solid red; */
+  }
+
+  .container .main1 .right-box .right-text .spen {
+    width: 60px;
+    height: 10px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  .container .main1 .right-box .right-text .spen span {
+    width: 10px;
+    height: 100%;
+    border-color: white !important;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  .container .main1 .right-box .right-text .spen span:nth-child(2) {
+    background-color: white;
+  }
+
+  .container .main1 .right-box .right-text .indicator {
+    display: flex;
+    align-items: center;
+  }
+
+  .container .main1 .right-box .right-text .indicator p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-right: 15px;
+  }
+
+  .container .main1 .right-box .right-text h1 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin: 10px 0;
+  }
+
+  .container .main1 .right-box .right-text p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+}
+
+
+@media screen and (min-width: 979px) and (max-width: 1300px) {
+
+  .container .main1 .left-box {
+    width: 35%;
+    height: 100%;
+    /* border: 2px solid red; */
+    background-image: url("../../../public/images/main-top2.svg");
+    background-repeat: no-repeat;
+    display: none;
+    object-fit: cover;
+    background-size: 100% 100%;
+  }
+
+  .container .main1 .right-box {
+    width: 65%;
+    height: 100%;
+    /* border: 2px solid white; */
+    z-index: 10;
+  }
+
+  .container .main1 .right-box .right-btn {
+    width: 13%;
+    /* margin-top: 100px; */
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+    /* border: 2px solid white; */
+  }
+
+  .container .main1 .right-box .right-btn p {
+    width: 151px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+
+  .container .main1 .right-box .right-btn button {
+    width: 130px;
+    font-size: 10px;
+    /* font-weight: 600; */
+    line-height: 23px;
+    padding: 6px 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 60px 0 0 49px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .container .main1 .right-box .right-text {
+    width: 480px;
+    height: auto;
+    display: none;
+    position: absolute;
+    left: 25%;
+    bottom: 35%;
+    /* border: 2px solid red; */
+  }
+
+  .container .main1 .right-box .right-text .spen {
+    width: 60px;
+    height: 10px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  .container .main1 .right-box .right-text .spen span {
+    width: 10px;
+    height: 100%;
+    border-color: white !important;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  .container .main1 .right-box .right-text .spen span:nth-child(2) {
+    background-color: white;
+  }
+
+  .container .main1 .right-box .right-text .indicator {
+    display: flex;
+    align-items: center;
+  }
+
+  .container .main1 .right-box .right-text .indicator p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-right: 15px;
+  }
+
+  .container .main1 .right-box .right-text h1 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin: 10px 0;
+  }
+
+  .container .main1 .right-box .right-text p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+}
