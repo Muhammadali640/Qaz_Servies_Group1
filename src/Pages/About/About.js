@@ -27,7 +27,7 @@ const About = () => {
           spaceBetween={50}
           slidesPerView={1}
           navigation
-         
+          loop
         >
           <SwiperSlide className="slideer">
             <img
